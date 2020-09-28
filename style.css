@@ -1,0 +1,156 @@
+body {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+.myhead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url(images/lore5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+@media (min-width: 576px) {
+    .navbar-header {
+        margin-bottom: 20px;
+    }
+    
+}
+@media (min-width: 768px) {
+    .navbar-header {
+        margin-bottom: 20px;
+    }
+  
+}
+@media (min-width: 992px) {
+    .navbar-header {
+        margin-bottom: 20px;
+    }
+  
+}
+@media (min-width: 1200px) {
+    .navbar-header {
+        margin-bottom: 20px;
+    }
+
+}
+@media (min-width: 1400px) {
+    .navbar-header {
+        margin-bottom: 20px;
+    }
+  
+}
+
+@media(max-width:767px){
+    header .breadcrumb {
+      display: none;
+    }
+
+}
+@media(min-width:768px){
+    header .navbar {
+      display: none;   
+    }
+    
+}
+
+.cap {
+    color: white;
+    margin-top: 200px;
+}
+.min_cap {
+    color: white;
+    font-style: italic;
+    opacity: 0.5;
+    font-weight: lighter;
+}
+.line {
+    height: 1px;
+    border: 5px solid white;
+    min-width: 1px;
+    font-weight: bold;
+}
+
+h1.title span {
+    border-bottom:2px solid white;
+    padding-bottom: 5px;
+}
+
+.cap_2 {
+    color: black;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+h3.title span {
+    border-bottom:2px solid black;
+    padding-bottom: 8px;
+}
+
+h2.title span {
+    border-bottom:2px solid black;
+    padding-bottom: 7px;
+}
+
+.new_title span {
+    border-bottom:2px solid black;
+    padding-bottom: 8px;
+    color: black;
+}
+
+.newsletter {
+    padding: 80px 0;
+    background: #f2f2f2;
+    }
+    
+    .newsletter .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2; }
+    .newsletter .content h2 {
+    color: #243c4f;
+    margin-bottom: 40px; }
+    .newsletter .content .form-control {
+    height: 50px;
+    border-color: #ffffff;
+    border-radius:0;
+    }
+    .newsletter .content.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #243c4f;
+    }
+    .newsletter .content .btn {
+    min-height: 50px; 
+    border-radius:0;
+    background: black;
+    color: #fff;
+    font-weight:600;
+}
+.bg-dark {
+    background-color: black;
+}
+.btn-secondary {
+    color: #fff;
+    background-color: black;
+    border-color: black;
+}
+.col-sm-1 {
+    margin-left: 25px;
+}
+.myfoot {
+    background-color: #f2f2f2;
+}
+.cap_2 {
+    color: black;
+}
+.piccolo {
+    margin-bottom: 1px;
+}
+.media-object {
+    float: left;
+}
